@@ -1,4 +1,15 @@
 
+$bg-pink: pink;
+
+
+%container-base{
+  width: 100%;
+  max-width: 1200px;
+  background: green;
+  margin: 0 auto;
+}
+@import 'header';
+@import 'footer';
 
 * {
   margin: 0;
