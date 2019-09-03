@@ -23,6 +23,7 @@
   },
   "homepage": "https://github.com/Zappykeyboard/node-sass-teambit#readme",
   "devDependencies": {
+    "@fortawesome/fontawesome-free": "^5.10.2",
     "cross-env": "^5.2.1",
     "laravel-mix": "^4.1.2",
     "resolve-url-loader": "^3.1.0",
