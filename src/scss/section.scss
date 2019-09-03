@@ -1,0 +1,9 @@
+section {
+  .container{
+    @extend %container-base;
+
+    .pitch-title {
+      text-align: center;
+    }
+  }
+}

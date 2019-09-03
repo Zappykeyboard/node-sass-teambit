@@ -5,11 +5,12 @@ $bg-pink: pink;
 %container-base{
   width: 100%;
   max-width: 1200px;
-  background: green;
   margin: 0 auto;
+  padding: 10px;
 }
 @import 'header';
 @import 'footer';
+@import 'section';
 
 * {
   margin: 0;
