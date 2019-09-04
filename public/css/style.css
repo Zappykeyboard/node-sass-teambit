@@ -29,6 +29,8 @@ footer .container {
   justify-content: center;
 }
 
+#sect-feat .pitch-block,
+#sect-feat .img-container,
 #sect-pitch .pitch-title,
 #sect-pitch .call-to-action,
 #sect-pitch .img-main,
@@ -69,6 +71,14 @@ section .container {
   max-width: 570px;
 }
 
+#sect-feat .img-container img {
+  max-width: 700px;
+}
+
+#sect-feat .pitch-block img {
+  max-width: 270px;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -83,7 +93,6 @@ section .container {
 
 hr {
   width: 90%;
-  max-width: 1200px;
   margin: 0 auto;
 }
 

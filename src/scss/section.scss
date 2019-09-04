@@ -48,6 +48,24 @@ section {
 #sect-pitch-2{
   @extend %pitch-salmon;
 }
+
 #sect-pitch-3{
   @extend %pitch-salmon;
+}
+
+#sect-feat{
+  .img-container{
+    @extend %default-element;
+
+    img{
+      max-width: 700px;
+    }
+  }
+  .pitch-block{
+    @extend %default-element;
+
+    img {
+      max-width: 270px;
+    }
+  }
 }
