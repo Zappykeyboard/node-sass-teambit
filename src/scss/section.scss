@@ -1,4 +1,14 @@
+%default-element{
+  margin: 20px auto;
+  text-align: center;
+}
+
 section {
+
+  .img-small{
+    width: 140px;
+  }
+
   .container{
     @extend %container-base;
     display: flex;
@@ -11,12 +21,25 @@ section {
 #sect-pitch{
 
   .pitch-title, .call-to-action, .img-main{
-    margin: 20px auto;
-    text-align: center;
-    width: 100%;
+    @extend %default-element;
   }
 
   .img-main{
     max-width: 570px;
+  }
+}
+
+#sect-pitch-2{
+  .pitch-title, .pitch-block{
+    @extend %default-element;
+    width: 100%;
+  }
+
+  .img-main{
+    @extend %default-element;
+
+    img{
+      max-width: 280px;
+    }
   }
 }

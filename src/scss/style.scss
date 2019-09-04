@@ -24,3 +24,9 @@ $bg-salmon: #ffe7d2;
 .bg-salmon{
 background: $bg-salmon;
 }
+
+hr{
+  width: 90%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
