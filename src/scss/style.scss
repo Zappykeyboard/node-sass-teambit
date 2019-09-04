@@ -1,5 +1,6 @@
 
 $bg-pink: pink;
+$bg-salmon: #ffe7d2;
 
 
 %container-base{
@@ -18,4 +19,8 @@ $bg-pink: pink;
   box-sizing: border-box;
   z-index: 0;
   font-family: 'Lato', sans-serif;
+}
+
+.bg-salmon{
+background: $bg-salmon;
 }

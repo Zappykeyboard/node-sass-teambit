@@ -10,7 +10,16 @@ header .container {
 header .container {
   display: flex;
   justify-content: space-between;
+  align-items: center;
   border-bottom: 1px solid black;
+}
+
+header .container #site-logo {
+  width: 200px;
+  height: 50px;
+  background-image: url(https://teambit.io/wp-content/themes/teambeat/img/logo.svg);
+  background-position: left center;
+  background-repeat: no-repeat;
 }
 
 footer .container {
@@ -20,8 +29,23 @@ footer .container {
   justify-content: center;
 }
 
-section .container .pitch-title {
+section .container {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+
+#sect-pitch .pitch-title,
+#sect-pitch .call-to-action,
+#sect-pitch .img-main {
+  margin: 20px auto;
   text-align: center;
+  width: 100%;
+}
+
+#sect-pitch .img-main {
+  max-width: 570px;
 }
 
 * {
@@ -30,5 +54,9 @@ section .container .pitch-title {
   box-sizing: border-box;
   z-index: 0;
   font-family: "Lato", sans-serif;
+}
+
+.bg-salmon {
+  background: #ffe7d2;
 }
 
