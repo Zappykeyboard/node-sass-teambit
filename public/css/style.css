@@ -29,14 +29,29 @@ footer .container {
   justify-content: center;
 }
 
-#sect-pitch-2 .img-main,
-#sect-pitch-2 .pitch-title,
-#sect-pitch-2 .pitch-block,
 #sect-pitch .pitch-title,
 #sect-pitch .call-to-action,
-#sect-pitch .img-main {
+#sect-pitch .img-main,
+#sect-pitch-3 .img-main,
+#sect-pitch-2 .img-main,
+#sect-pitch-3 .pitch-title,
+#sect-pitch-2 .pitch-title,
+#sect-pitch-3 .pitch-block,
+#sect-pitch-2 .pitch-block {
   margin: 20px auto;
   text-align: center;
+}
+
+#sect-pitch-3 .pitch-title,
+#sect-pitch-2 .pitch-title,
+#sect-pitch-3 .pitch-block,
+#sect-pitch-2 .pitch-block {
+  width: 100%;
+}
+
+#sect-pitch-3 .img-main img,
+#sect-pitch-2 .img-main img {
+  max-width: 280px;
 }
 
 section .img-small {
@@ -52,15 +67,6 @@ section .container {
 
 #sect-pitch .img-main {
   max-width: 570px;
-}
-
-#sect-pitch-2 .pitch-title,
-#sect-pitch-2 .pitch-block {
-  width: 100%;
-}
-
-#sect-pitch-2 .img-main img {
-  max-width: 280px;
 }
 
 * {

@@ -3,6 +3,22 @@
   text-align: center;
 }
 
+%pitch-salmon{
+
+  .pitch-title, .pitch-block{
+    @extend %default-element;
+    width: 100%;
+  }
+
+  .img-main{
+    @extend %default-element;
+
+    img{
+      max-width: 280px;
+    }
+  }
+}
+
 section {
 
   .img-small{
@@ -30,16 +46,8 @@ section {
 }
 
 #sect-pitch-2{
-  .pitch-title, .pitch-block{
-    @extend %default-element;
-    width: 100%;
-  }
-
-  .img-main{
-    @extend %default-element;
-
-    img{
-      max-width: 280px;
-    }
-  }
+  @extend %pitch-salmon;
+}
+#sect-pitch-3{
+  @extend %pitch-salmon;
 }
